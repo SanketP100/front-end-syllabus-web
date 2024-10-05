@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Gilroy Light'; */
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: Slussen;
+    src: url(./Slussen-Compressed-Black.ttf);
+}
+@font-face {
+    font-family: Expanded;
+    src: url(./Slussen-Expanded-Black.ttf);
+}
+
+body, button, div {
+    transition: all 0.3s ease;
+    
+}
+.accordion-content {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+.accordion-content.open {
+    max-height: 800px;
+    opacity: 1;
+    transition: all 1.5s ease;
+}
+.rotate-180 {
+    transform: rotate(180deg);
+}
