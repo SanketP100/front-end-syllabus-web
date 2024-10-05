@@ -48,19 +48,22 @@ const subheadings = [
     ['Redux – Deep Dive'],
     ['SCSDB – Let’s Build From Scratch'],
     ['ExoApe – Let’s Build It'],
-    ['Introduction To Git & GitHub', 'Git Init', 'Pull', 'Push', 'Commands','Bash', 'Repository Creation On GitHub', 'Introduce Git In VS Code'],
+    ['Introduction To Git & GitHub', 'Git Init', 'Pull', 'Push', 'Commands','Bash', 'Repository Creation On GitHub', 'Introduce Git In VS Code']
 ];
 
 function createAccordionItem(index) {
     const item = document.createElement('div');
-    item.className = 'accordion-item bg-blake text-black p-0 px-32';
+    item.className = 'accordion-item bg-blake text-black p-0 lg:px-32';
 
     let accordionContent = `
                 <div class="flex items-center justify-between cursor-pointer lg:p-10 p-5 border-t-[1px] border-[#676161] tracking-wider">
                     <h1 class="text-[4.5vw] lg:text-[2.2vw] font-bold">${headings[index]}</h1>
-                    <svg class="h-8 w-8 p-1 text-gray-300 bg-[#212121] rounded-full transform transition-transform duration-300 flex items-center justify-center" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <div class="Expend flex items-center gap-5">
+                    <h5 class="text-sm hidden lg:flex">Expand</h5>
+                    <svg class="lg:h-8 lg:w-8 lg:p-1 h-6 w-6 p-1 text-gray-300 bg-[#212121] rounded-full transform transition-transform duration-300 flex items-center justify-center" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path class="font-bold" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                     </svg>
+                    </div>
                 </div>
                 <div class="accordion-content space-y-0">`;
 
