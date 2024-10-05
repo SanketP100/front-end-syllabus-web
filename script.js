@@ -47,7 +47,7 @@ const subheadings = [
     ['Refokus Clone – Let’s Build It'],
     ['Redux – Deep Dive'],
     ['SCSDB – Let’s Build From Scratch'],
-    ['ExoApe – Let’s Build It']
+    ['ExoApe – Let’s Build It'],
     ['Introduction To Git & GitHub', 'Git Init', 'Pull', 'Push', 'Commands','Bash', 'Repository Creation On GitHub', 'Introduce Git In VS Code']
 ];
 
