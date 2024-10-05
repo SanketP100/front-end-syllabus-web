@@ -33,7 +33,7 @@ function updateColors() {
 const headings = [
     'Course Walkthrough', 'HTML – Making Architecture', 'CSS – Styling things up', 'JavaScript – Everything about JavaScript',
     'GSAP and Locomotive – Fun Stuff', 'Final Project – Obys Agency Clone', 'React JS', 'React JS Project – Refokus Clone',
-    'Redux', 'React JS Final Project – SCSDB.', 'ExoApe – Bonus Project'
+    'Redux', 'React JS Final Project – SCSDB.', 'ExoApe – Bonus Project', 'Git & GitHub'
 ];
 
 const subheadings = [
@@ -48,6 +48,7 @@ const subheadings = [
     ['Redux – Deep Dive'],
     ['SCSDB – Let’s Build From Scratch'],
     ['ExoApe – Let’s Build It']
+    ['Introduction To Git & GitHub', 'Git Init', 'Pull', 'Push', 'Commands','Bash', 'Repository Creation On GitHub', 'Introduce Git In VS Code']
 ];
 
 function createAccordionItem(index) {
